@@ -3,7 +3,7 @@ name=input("Enter student name:")
 n=int(input("Enter number of subjects:"))
 total=0
 for i in range(1,1+n):
-    mark=float(input(f"enter mark for subject{i}: "))
+    mark=float(input(f"enter mark for subject{i}:  "))
     total+=mark
     percentage=total/n
 if percentage>=90:
